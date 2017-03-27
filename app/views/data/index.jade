@@ -1,0 +1,24 @@
+extends ../layout
+
+block content
+    h1= "修改定时器规则"
+    form(method="post")
+        label(for="second") 秒
+        input(name="second")
+        br
+        label(for="minute") 分
+        input(name="minute")
+        br
+        label(for="hour") 时
+        input(name="hour")
+        br
+        label(for="day") 天
+        input(name="day")
+        br
+        label(for="month") 月
+        input(name="month")
+        br
+        label(for="week") 周
+        input(name="week")
+        br
+        button 修改
